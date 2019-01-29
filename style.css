@@ -1,0 +1,99 @@
+
+section {
+  height: 100vh;
+}
+
+h1, h2 {
+  color: #ffffff
+}
+
+/* header */
+
+header {
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+}
+
+.logo {
+  height: 100%;
+  width: 30%;
+  display: flex;
+  justify-content: flex-start;
+  /* position: relative; */
+}
+
+#header-img {
+  height: 90%;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navContainer {
+  display: flex;
+  justify-content: space-around;
+}
+
+.navigation {
+  width: 55%;
+  /* position: relative; */
+}
+
+
+.navLinks li {
+  display: inline;
+}
+
+/* banner */
+
+#banner {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("assets/succulents_background.jpg") no-repeat center;
+  text-align: center;
+}
+
+.titles {
+  position: relative;
+  top: 40%;
+}
+
+/* benefits */
+
+.benefitsContent {
+  display: flex;
+  justify-content: space-between;
+}
+
+.video {
+  height: 400px;
+  width: 450px;
+  background: grey;
+}
+
+.benefit p {
+  display: inline;
+}
+
+/* plans */
+
+.planContainer {
+  display: flex;
+  justify-content: space-around;
+}
+
+.singlePlan {
+  height: 200px;
+  width: 200px;
+  background: #d8ffbf;
+}
+
+/* register */
+
+#register {
+  height: 50vh;
+  background: #9dc19f;
+}
