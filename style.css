@@ -108,23 +108,51 @@ ul {
 
 /* benefits */
 
+#benefits {
+  height: 80vh;
+}
+
 .benefitsContent {
   display: flex;
   justify-content: space-around;
+  align-items: center;
 }
 
 .video {
-  height: 400px;
-  width: 450px;
-  background: grey;
+  
+}
+
+.benefitsList {
+  width: 40%;
+}
+
+.benefitsList :first-child {
+  margin-top: 0;
+}
+
+.benefitsList :last-child {
+  margin-bottom: 0;
 }
 
 .benefit {
   margin: 10% 0;
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+}
+
+.icon {
+  font-size: 3em;
+  margin-right: 4%;
+  color: #9dc19f;
+}
+
+.benefit h5 {
+  font-size: 1.2em;
 }
 
 .benefit p {
-  display: inline;
+  margin-top: 2%;
 }
 
 /* plans */
@@ -139,11 +167,29 @@ ul {
 }
 
 .singlePlan {
-  height: 200px;
-  width: 200px;
+  height: 20%;
+  width: 25%;
   background: #d8ffbf;
+  text-align: center;
+  padding: 2%;
 }
 
+.planText {
+  width: 80%;
+  margin: 0 auto;
+  line-height: 1.5;
+}
+
+.planText :first-child {
+  font-weight: bold;
+  font-size: 1.1em;
+  margin-bottom: 5%;
+}
+
+.price {
+  padding: 5%;
+  border: 1px solid grey;
+}
 /* register */
 
 #register {
