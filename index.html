@@ -18,9 +18,9 @@
     <div class="navigation headerChild">
       <nav id="nav-bar">
         <ul class="navLinks navContainer">
-          <li class="nav-link"><a href="#">Benefits</a></li>
-          <li class="nav-link"><a href="#">Plans</a></li>
-          <li class="nav-link"><a href="#">Register</a></li>
+          <li class="nav-link"><a href="#benefits">Benefits</a></li>
+          <li class="nav-link"><a href="#plans">Plans</a></li>
+          <li class="nav-link"><a href="#register">Register</a></li>
         </ul>
       </nav>
     </div>
@@ -104,15 +104,15 @@
 
   <section id="register" class="pageSection">
     <h3 class="sectionTitle">Register</h3>
-    <form id="form">
-      <p>Enter your email below to get started with Power Plants:</p>
-      <input class="inputField" id="email" type="email" name="email" required placeholder="Enter your email address">
-      <input id="submit" type="submit" value="Submit">
-    </form>
+    <div class="form">
+      <form id="form" action="https://www.freecodecamp.com/email-submit">
+        <p>Enter your email below to get started with Power Plants:</p>
+        <div class="formInput">
+          <input class="inputField" id="email" type="email" name="email" required placeholder="Enter your email address">
+          <input class="button" id="submit" type="submit" value="Submit">
+        </div>
+      </form>
+    </div>
   </section>
-
-  <footer>
-
-  </footer>
 
 </body>

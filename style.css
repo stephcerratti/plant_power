@@ -37,7 +37,9 @@ header {
   height: 10vh;
   display: flex;
   justify-content: space-between;
-  position: sticky;
+  position: fixed;
+  width: 100%;
+  background: #ffffff;
 }
 
 .logo {
@@ -167,7 +169,7 @@ ul {
 }
 
 .singlePlan {
-  height: 20%;
+  max-height: 20%;
   width: 25%;
   background: #d8ffbf;
   text-align: center;
@@ -195,4 +197,34 @@ ul {
 #register {
   height: 50vh;
   background: #9dc19f;
+}
+
+#register h3 {
+  padding-top: 2%;
+}
+
+.form {
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.form p {
+  margin-bottom: 5%;
+}
+
+.formInput {
+  width: 100%;
+  height: 5vh;
+}
+
+.inputField {
+  width: 70%;
+  height: 100%;
+}
+
+.button {
+  height: 100%;
+  border-radius: 2px;
+  width: 20%;
 }
